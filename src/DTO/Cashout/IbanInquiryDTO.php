@@ -2,7 +2,9 @@
 
 namespace SaeedVaziry\PayirSDK\DTO\Cashout;
 
-class IbanInquiryDTO
+use SaeedVaziry\PayirSDK\DTO\DTOInterface;
+
+class IbanInquiryDTO implements DTOInterface
 {
     /**
      * @var
